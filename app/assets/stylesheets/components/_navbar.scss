@@ -1,12 +1,17 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+.navbar {
+  background-color: rgba(0, 0, 0, 0); /* Add a semi-transparent background color */
+  padding: 10px;
+  position: absolute;
+  z-index: 2; /* Ensure the navbar is above the banner */
+  color: #ffffff;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.border-bottom {
+  border-bottom: 4px solid #ffffff !important;
+  padding-bottom: 10px; /* Optional: Add padding to separate content from the border */
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.icon-btn {
+  font-size: 1.5em;
+  color: #ffffff;
 }

@@ -1,1 +1,44 @@
 // Specific CSS for your home-page
+.banner {
+  padding-top: 8em !important;
+  background-image: url('https://res.cloudinary.com/dqbhsik89/image/upload/v1699550684/IMG_2734_uffmiu.jpg'); /* Replace with your banner image */
+  background-size: cover;
+  position: relative;
+  z-index: 1; /* Ensure the banner is above other content */
+}
+
+.first_name {
+  font-family: "montserrate", "Helvetica", "serif";
+  font-size: 12em;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: -7%;
+  margin-top: -6.25%;
+}
+
+.last_name {
+  font-family: "playfair display", "Helvetica", "serif";
+  font-size: 6em;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+  letter-spacing: 2.25vw;}
+
+.border-left {
+  border-left: 4px solid #ffffff; /* Adjust the width and color as needed */
+  padding-left: 10px; /* Optional: Add padding to separate content from the border */
+}
+
+.title {
+  margin-bottom: 1rem;
+  font-weight: bolder;
+  margin-top: -5%;
+
+
+}
+
+.section-title {
+  font-size: 2.4em !important;
+  color: #ffffff;
+  font-weight: bolder;
+}
