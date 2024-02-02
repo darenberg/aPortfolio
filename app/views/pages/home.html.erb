@@ -1,37 +1,68 @@
-<div class="banner d-flex p-3 text-white bg-dark vw-100 vh-100 pt-5 text-align-left">
+<div class="banner parallaxone d-flex p-3 text-white bg-dark vw-100 vh-100 pt-5 text-align-left">
   <div>
     <h1 class="first_name"><strong> ALIENOR </strong></h1>
     <h3 class="last_name">D'ARENBERG</h3>
   </div>
   <div class="p-3 border-left">
-    <h4 class="title"><strong>Front End Developer</strong></h4>
-    <p class="description text-justify">I'm Alienor d'Arenberg, a front-end developer with expertise in HTML, SCSS, and JavaScript. Proficient with the Stimulus framework and Rails, I specialize in crafting dynamic and maintainable web applications. My approach combines design finesse with efficient code, ensuring seamless user experiences. Let's transform your ideas into digital reality!</p>
+    <h4 class="title"><strong>Full Stack Developer</strong></h4>
+    <p class="description text-justify">I'm Alienor d'Arenberg, a full-stack developer with expertise in HTML, SCSS, JavaScript in front end and Ruby on Rails in backend. Proficient with the Stimulus framework and Rails, I specialize in crafting dynamic and maintainable web applications. My approach combines design finesse with efficient code, ensuring seamless user experiences. Let's transform your ideas into digital reality!</p>
   </div>
 </div>
+<style>
+  .parallaxone {
+    /* The image used */
+    background-image: url("https://res.cloudinary.com/dqbhsik89/image/upload/v1706907132/DALL_E_2024-02-02_20.49.45_-_Create_a_landscape_image_depicting_a_British_countryside_in_late_summer_with_a_focus_on_thistle_flowers._The_scene_should_convey_the_transition_from_nfa6qw.webp");
 
-<section id="about" class="about d-flex py-5" style="background-image:url('https://res.cloudinary.com/dqbhsik89/image/upload/v1699550685/IMG_2779_lpwkh7.jpg');">
-  <div class="section-title about-title col-2">
-    <h3 class="about-title-text col-1 mx-3"><strong>ABOUT</strong></h3>
-  </div>
-  <div class="img col">
-  </div>
+    /* Set a specific height */
+    min-height: 500px;
 
-  <div class="about-text col">
-    <p class="about-poem text-justify" >
-      *--------------------------------------------*<br>
-      <br>
-      In a web of browsers, inconsistencies lie,<br>
-      Endless frameworks emerge, making me sigh.<br>
-      Unexpected bugs at the eleventh hour,<br>
-      Shifted pixels, broken power.<br>
-      The web's vast sea, a challenging tide to ply.<br>
-      <br>
-      *--------------------------------------------*<br>
-    </p>
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallaxtwo {
+    /* The image used */
+    background-image: url("https://res.cloudinary.com/dqbhsik89/image/upload/v1706907132/DALL_E_2024-02-02_20.49.45_-_Create_a_landscape_image_depicting_a_British_countryside_in_late_summer_with_a_focus_on_thistle_flowers._The_scene_should_convey_the_transition_from_nfa6qw.webp");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+</style>
+
+<section id="about" class="about text-white gradone">
+  <div class="blush py-5 d-flex">
+    <div class="section-title about-title col-2">
+      <h3 class="about-title-text col-1 mx-3"><strong>ABOUT</strong></h3>
+    </div>
+    <div class="img col">
+    </div>
+
+    <div class="about-text col">
+      <p class="about-poem text-justify" >
+        *--------------------------------------------*<br>
+        <br>
+        In a web of browsers, inconsistencies lie,<br>
+        Endless frameworks emerge, making me sigh.<br>
+        Unexpected bugs at the eleventh hour,<br>
+        Shifted pixels, broken power.<br>
+        The web's vast sea, a challenging tide to ply.<br>
+        <br>
+        *--------------------------------------------*<br>
+      </p>
+    </div>
   </div>
 </section>
 
-<section id="skills" class="skills d-flex my-5">
+<section id="skills" class="skills d-flex py-5 text-white parallaxtwo">
   <div class="section-title skills-title col-2">
     <h3 class="skills-title-text col-1 mx-3"><strong>SKILLS</strong></h3>
   </div>
@@ -67,45 +98,50 @@
   </div>
 </section>
 
-<section id="contact" class="contact d-flex my-5">
-<div class="section-title contact-title col-2">
-    <h3 class="contact-title-text col-1 mx-3"><strong>CONTACT</strong></h3>
-  </div>
-  <div class="contact-text d-flex align-items-center col ml-5 my-5">
-    <p class="contact-poem text-justify" >
-      *--------------------------------------------*<br>
-      <br>
-      Fields await input,<br>
-      Messages cross the vast web,<br>
-      Connection begins.<br>
-      <br>
-      *--------------------------------------------*<br>
+<section id="contact" class="contact d-flex">
+  <div class="blush py-5 d-flex text-white">
+    <div class="section-title contact-title col-2">
+        <h3 class="contact-title-text col-1 mx-3"><strong>CONTACT</strong></h3>
+    </div>
+    <div class="contact-text d-flex align-items-center col ml-5 my-5">
+      <p class="contact-poem text-justify" >
+        *--------------------------------------------*<br>
+        <br>
+        Fields await input,<br>
+        Messages cross the vast web,<br>
+        Connection begins.<br>
+        <br>
+        *--------------------------------------------*<br>
 
-    </p>
-  </div>
-  <div class="contact-form d-flex col">
-    <form class="w-100" action="/submit" method="post">
-      <div class="d-flex justify-content-end col-9">
-        <label class="mr-3 col"for="name">Name:</label>
-        <input class="col" type="text" id="name" name="name" required>
-      </div>
-      <br>
-      <div class="d-flex justify-content-end col-9">
-        <label class="mr-3 col"for="email">Email:</label>
-        <input class="col" type="email" id="email" name="email" required>
-      </div>
-      <br>
-      <div class="d-flex justify-content-end col-9">
-        <label class="col-sm-2"for="subject">Subject: </label>
-        <input class="col-sm-10" type="text" id="subject" name="subject">
-      </div>
-      <br>
-      <div class="d-flex justify-content-end col-9">
-        <label class="col-sm-2" for="message">Message:</label>
-        <textarea class="col-sm-10" id="message " name="message" rows="4" required></textarea>
-      </div>
-      <br>
-      <input class="my-3" type="submit" value="Submit">
-    </form>
+      </p>
+    </div>
+    <div class="contact-form d-flex col">
+      <form class="w-100" action="/submit" method="post">
+        <div class="d-flex justify-content-end col-9">
+          <label class="mr-3 col"for="name">Name:</label>
+          <input class="col" type="text" id="name" name="name" required>
+        </div>
+        <br>
+        <div class="d-flex justify-content-end col-9">
+          <label class="mr-3 col"for="email">Email:</label>
+          <input class="col" type="email" id="email" name="email" required>
+        </div>
+        <br>
+        <div class="d-flex justify-content-end col-9">
+          <label class="col-sm-2"for="subject">Subject: </label>
+          <input class="col-sm-10" type="text" id="subject" name="subject">
+        </div>
+        <br>
+        <div class="d-flex justify-content-end col-9">
+          <label class="col-sm-2" for="message">Message:</label>
+          <textarea class="col-sm-10" id="message " name="message" rows="4" required></textarea>
+        </div>
+        <br>
+        <input class="my-3" type="submit" value="Submit">
+      </form>
+    </div>
   </div>
 </section>
+<script>
+  const imageone = document.getElementById ('about');
+  const background = imagone.style.backgroundImage

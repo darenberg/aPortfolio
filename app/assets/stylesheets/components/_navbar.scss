@@ -1,5 +1,5 @@
 .navbar {
-  background-color: rgba(0, 0, 0, 0); /* Add a semi-transparent background color */
+  background-color: rgba(94,66,99, 0.5); /* Add a semi-transparent background color */
   padding: 10px;
   position: absolute;
   z-index: 2; /* Ensure the navbar is above the banner */
@@ -7,7 +7,7 @@
 }
 
 .border-bottom {
-  border-bottom: 4px solid #ffffff !important;
+  border-bottom: 4px solid $white !important;
   padding-bottom: 10px; /* Optional: Add padding to separate content from the border */
 }
 
