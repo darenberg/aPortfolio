@@ -1,4 +1,4 @@
-<div class="banner parallaxone d-flex p-3 text-white bg-dark vw-100 vh-100 pt-5 text-align-left">
+<div class="banner parallaxone d-flex p-3 text-white bg-dark vw-100 vh-100 pt-3 text-align-left">
   <div>
     <h1 class="first_name"><strong> ALIENOR </strong></h1>
     <h3 class="last_name">D'ARENBERG</h3>
@@ -103,45 +103,24 @@
     <div class="section-title contact-title col-2">
         <h3 class="contact-title-text col-1 mx-3"><strong>CONTACT</strong></h3>
     </div>
-    <div class="contact-text d-flex align-items-center col ml-5 my-5">
-      <p class="contact-poem text-justify" >
-        *--------------------------------------------*<br>
-        <br>
-        Fields await input,<br>
-        Messages cross the vast web,<br>
-        Connection begins.<br>
-        <br>
-        *--------------------------------------------*<br>
 
-      </p>
-    </div>
     <div class="contact-form d-flex col">
-      <form class="w-100" action="/submit" method="post">
-        <div class="d-flex justify-content-end col-9">
-          <label class="mr-3 col"for="name">Name:</label>
-          <input class="col" type="text" id="name" name="name" required>
-        </div>
-        <br>
-        <div class="d-flex justify-content-end col-9">
-          <label class="mr-3 col"for="email">Email:</label>
-          <input class="col" type="email" id="email" name="email" required>
-        </div>
-        <br>
-        <div class="d-flex justify-content-end col-9">
-          <label class="col-sm-2"for="subject">Subject: </label>
-          <input class="col-sm-10" type="text" id="subject" name="subject">
-        </div>
-        <br>
-        <div class="d-flex justify-content-end col-9">
-          <label class="col-sm-2" for="message">Message:</label>
-          <textarea class="col-sm-10" id="message " name="message" rows="4" required></textarea>
-        </div>
-        <br>
-        <input class="my-3" type="submit" value="Submit">
+      <form class="form">
+        <ul class="wrapper">
+
+          <li style="--i:4;"><input class="input" type="text" placeholder="Name" required=""></li>
+          <li style="--i:3;"><input class="input" placeholder="Phone number" required="" name="phone"></li>
+          <li style="--i:2;"><input class="input" type="email" placeholder="E-mail" required="" name="email"></li>
+          <button class="button" type="submit" value="Submit">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 24">
+              <path d="m18 0 8 12 10-8-4 20H4L0 4l10 8 8-12z"></path>
+            </svg>
+            Unlock Pro
+          </button>
+        </ul>
+      </form>
+
       </form>
     </div>
   </div>
 </section>
-<script>
-  const imageone = document.getElementById ('about');
-  const background = imagone.style.backgroundImage

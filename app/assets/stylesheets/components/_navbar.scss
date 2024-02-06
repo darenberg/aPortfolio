@@ -15,3 +15,46 @@
   font-size: 1.5em;
   color: #ffffff;
 }
+
+
+
+.home-button {
+  font-family: "crimson text", "serif";
+  font-size: large;
+}
+
+.about-button {
+  font-family: "dancing script";
+  font-size: 125%;
+  font-weight: 400;
+}
+
+.skills-button {
+  font-family: "major mono display";
+  font-size: 115%;
+}
+
+.contact-button {
+  font-family: "cute font";
+  font-size: 145%;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.link {
+  justify-content: center
+}
+.link:link {
+  text-decoration: none;
+}
+.link:visited {
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: none;
+}
+.link:active {
+  text-decoration: none;
+}
